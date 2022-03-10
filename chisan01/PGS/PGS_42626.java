@@ -4,7 +4,7 @@ package PGS;
 
 import java.util.*;
 
-class Solution {
+public class PGS_42626 {
     public int solution(int[] scovilles, int K) {
         PriorityQueue<Integer> Q = new PriorityQueue<>();
         for (int scoville : scovilles) {
