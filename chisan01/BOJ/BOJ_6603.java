@@ -6,47 +6,42 @@ import java.util.*;
 
 class GermanLotto {
     int[] S;
-    boolean[] check;
 
     public GermanLotto(int[] S) {
         this.S = S;
-        this.check = new boolean[S.length];
-        Arrays.fill(check, false);
     }
 
-    private void printMethod(int index, int cnt) {
-        if(cnt == 6) {
-            for(int i=0; i<check.length; i++) {
-                if(check[i]) {
-                    System.out.print(S[i] + " ");
-                }
+    private void printMethod(int startIndex, int cnt, int[] method) {
+        if (cnt == 6) {
+            for (int item : method) {
+                System.out.print(item + " ");
             }
             System.out.print("\n");
             return;
         }
-        if(index == S.length) return;
+        if (startIndex == S.length) return;
 
-        for(int i=index; i<S.length; i++) {
-            check[i] = true;
-            printMethod(i+1, cnt+1);
-            check[i] = false;
+        for (int i = startIndex; i < S.length; i++) {
+            method[cnt] = S[i];
+            printMethod(i + 1, cnt + 1, method);
         }
     }
 
     public void printAllMethod() {
-        printMethod(0, 0);
+        int[] ret = new int[6];
+        printMethod(0, 0, ret);
     }
 }
 
 public class BOJ_6603 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        while(true) {
+        while (true) {
             int k = sc.nextInt();
-            if(k == 0) break;
+            if (k == 0) break;
 
             int[] S = new int[k];
-            for(int i=0; i<k; i++) {
+            for (int i = 0; i < k; i++) {
                 S[i] = sc.nextInt();
             }
 
