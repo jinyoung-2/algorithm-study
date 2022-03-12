@@ -18,7 +18,7 @@ public class BOJ_6603 {
         Scanner sc = new Scanner(System.in);
         while (true) {
             int k = sc.nextInt();
-            if (k == 0 || k <= 6 || k >= 13)
+            if (k == 0)
                 break;
 
             int[] S = new int[k];
@@ -45,14 +45,14 @@ class GermanLotto{
     public GermanLotto(int[] S) {
         this.S = S;
         this.check = new boolean[S.length];
-        Arrays.fill(check, true);   // Arrays.fill(배열, 값) : 배열을 값으로 전부 채우기
+        Arrays.fill(check, false);   // Arrays.fill(배열, 값) : 배열을 값으로 전부 채우기
     }
 
     private void printMethod(int index, int cnt){
         if(cnt == 6){
             for(int i=0;i< check.length;i++){
                 if(check[i]){
-                    System.out.println(S[i] + " ");
+                    System.out.print(S[i] + " ");
                 }
             }
             System.out.println();
@@ -94,7 +94,7 @@ class GermanLotto {
     private void printMethod(int index, int cnt) {
         if (cnt == 6) {
             for (int i = 0; i < answerList.size(); i++) {
-                System.out.println(answerList.get(i) + " ");
+                System.out.print(answerList.get(i) + " ");
             }
             System.out.println();
             return;
