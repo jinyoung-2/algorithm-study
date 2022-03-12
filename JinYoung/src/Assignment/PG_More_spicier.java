@@ -3,7 +3,7 @@ package Assignment;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-class PG_More_Spicier {
+class PG_More_spicier {
     public int solution(int[] scoville, int K) {
 
         /**
