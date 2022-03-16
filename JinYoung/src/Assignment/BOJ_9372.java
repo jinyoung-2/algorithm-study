@@ -10,10 +10,7 @@ public class BOJ_9372 {
     public static void main(String[] args) {
         /**
          * N개국 여행 => "최대한 적은 종류"의 비행기 타고 "모든 국가" 이동
-         *
          * */
-
-
         // 입력
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();   //테스트 케이스의 수
@@ -35,7 +32,7 @@ public class BOJ_9372 {
             int rootNode = arr[0][0];
             int firstChildNode = arr[0][1];
 
-            for (int j = 0; j < M; j++) {
+            for (int j = 1; j < M; j++) {
 
                 if (rootNode == arr[j][0] || rootNode == arr[j][1]) {   //firstChildNode 달라진 경우
 
@@ -59,5 +56,3 @@ public class BOJ_9372 {
         }
     }
 }
-
-//Q. 테스트 케이스별 입력이 다 된 후에야, 모든 출력? 아니면 테스트 케이스별로 입력된 후에, 해당 테스트케이스만 출력?
