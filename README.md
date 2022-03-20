@@ -60,9 +60,7 @@
    $ git remote add upstream https://github.com/CBNU-A-S/algorithm-study.git
    $ git remote -v
    ```
-
 <br>
-
 
 ### 1. 저장소 최신으로 업데이트
 
@@ -146,8 +144,11 @@ $ git pull -r upstream main
   | 1주차         |                                                              |                                                              |        |        |
   | 2주차         | [프로그래머스] Lv.2 [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | [프로그래머스] Lv.2 [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) |        |        |
   | 3주차         |                                                              |                                                              | [백준] 실버3 [Flying Safely](https://www.acmicpc.net/problem/9372) | [백준] 실버4 [미로 만들기](https://www.acmicpc.net/problem/1347) |
-  | 4주차         |                                                              |                                                              |        |        |
+  | 4주차         | [프로그래머스] Lv.2 [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [프로그래머스] Lv.2 [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) |        |        |
   | 5주차         |                                                              |                                                              |        |        |
+  | 6주차         |                                                              |                                                              |        |        |
+  | 7주차         |                                                              |                                                              |        |        |
+  | 8주차         |                                                              |                                                              |        |        |
   |               |                                                              |                                                              |        |        |
   |               |                                                              |                                                              |        |        |
   |               |                                                              |                                                              |        |        |
@@ -162,12 +163,16 @@ $ git pull -r upstream main
   | ----- | --------------- | ------ | ------------------------------------------------------------ | --------------------------------------------------------- |
   | 1주차 | Greedy 알고리즘 | 최문형 | [백준] 실버4 [문서 검색](https://www.acmicpc.net/problem/1543) | [백준] 골드5 [센서](https://www.acmicpc.net/problem/2212) |
   | 2주차 | Brute Force 알고리즘 | 이진영 | [백준] 실버2 [Lotto](https://www.acmicpc.net/problem/6603) | [백준] 골드1 [구슬 탈출 2](https://www.acmicpc.net/problem/13460) |
-  | 3주차 |                 | 풍혜림 |                                                              |                                                           |
-  | 4주차 |                 | 안치산 |                                                              |                                                           |
+  | 3주차 | Bubble Sort 알고리즘 | 풍혜림 | [백준] 브론즈1 [알고리즘 수업 - 버블 정렬 1](https://www.acmicpc.net/problem/23968) | [백준] 플래티넘4 [알고리즘 수업 - 버블 정렬 5](https://www.acmicpc.net/problem/24047) |
+  | 4주차 | DP(Dynamic Programming) 알고리즘 | 안치산 |                                                              |                                                           |
   | 5주차 |                 |        |                                                              |                                                           |
   |       |                 |        |                                                              |                                                           |
   |       |                 |        |                                                              |                                                           |
   |       |                 |        |                                                              |                                                           |
   |       |                 |        |                                                              |                                                           |
+  |       |                 |        |                                                              |                                                           |
+  |       |                 |        |                                                              |                                                           |
+  |       |                 |        |                                                              |                                                           |
+  
 
 <!-- </details><br> -->
