@@ -12,6 +12,7 @@ import java.util.Scanner;
  * 3. 문제에서 의사코드를 제시하면, 의사코드 방식대로 알고리즘 코드 작성하기
  * */
 
+// 1번째 풀이 
 public class BOJ_23968 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -49,4 +50,48 @@ public class BOJ_23968 {
     }
 }
 
+
+// 2번째 풀이
+public class BOJ_23968 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();   //배열의 크기
+        int K = sc.nextInt();    //교환 횟수
+        int[] A = new int[N+1];
+        for(int i=1;i<=N;i++){
+            A[i]=sc.nextInt();
+        }
+        bubble_sort(A,K);
+
+    }
+
+    static void bubble_sort(int[] A,int K){ //A[1..N]을 오름차순 정렬
+        int cnt=0;
+        boolean isOut = false;
+        for(int last=A.length;last>=2;last--){
+            for(int i=1;i<=last-1;i++ ){
+                if (A[i] > A[i + 1]) {
+                    // swap( );
+                    int temp = A[i];
+                    A[i] = A[i + 1];
+                    A[i + 1] = temp;
+
+                    cnt++;
+                    if(cnt==K){
+                        //K 번 교환이 발생한 직후의 배열 A를 한 줄에 출력
+                        System.out.printf("%d %d",A[i],A[i+1]);
+                        isOut=true;
+                        break;
+                    }
+                }
+            }
+            if(isOut)
+                break;
+        }
+
+        //출력
+        if (cnt < K)
+            System.out.println(-1);
+    }
+}
 
