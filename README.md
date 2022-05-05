@@ -147,7 +147,7 @@ $ git pull -r upstream main
   | 4주차 | [프로그래머스] Lv.2 [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [프로그래머스] Lv.2 [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) |  |  |
   | 5주차 | [프로그래머스] Lv.3 [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) | [백준] Silver3 [크리스마스 선물](https://www.acmicpc.net/problem/14235) |  |  |
   | 6주차 |  |  | [백준] Gold5 [돌 게임 6](https://www.acmicpc.net/problem/9660) | [백준] Silver1 [시간 관리](https://www.acmicpc.net/problem/1263) |
-  | 9주차 |  |  |  |  |
+  | 9주차 | [백준] Gold 5 [호텔](https://www.acmicpc.net/problem/1106) | [백준] Silver 3 [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) |  |  |
   | 10주차 |  |  |  |  |
   | 11 |  |  |  |  |
   |  |  |  |  |  |
@@ -167,7 +167,7 @@ $ git pull -r upstream main
   | 4주차 | DP(Dynamic Programming) 알고리즘 | 안치산 | [프로그래머스] Lv.3 [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895) | [백준] Bronze3 [피보나치 수](https://www.acmicpc.net/problem/2747) |
   | 5주차 | 최단거리 알고리즘 | 최문형 | [백준] Gold4 [타임머신](https://www.acmicpc.net/problem/11657) | [백준] Silver3 [등수 매기기](https://www.acmicpc.net/problem/2012) |
   | 9주차 | Greedy & Brute Force 복습 | | [백준] Silver4 [게임을 만든 동준이](https://www.acmicpc.net/problem/2847) | [백준] Silver3 [퇴사](https://www.acmicpc.net/problem/14501) |
-  | 10주차 |  |  |  |  |
+  | 10주차 | DFS & BFS | 이진영 | [백준] Silver3 [바이러스](https://www.acmicpc.net/problem/2606) | [백준] Silver2 [바이러스](https://www.acmicpc.net/problem/1012) |
   | 11주차 |  |  |  |  |
   |  |  |  |  |  |
   |  |  |  |  |  |
