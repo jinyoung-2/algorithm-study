@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
-// BinarySearch using Set Data Structure
+// Set Data Structure
 // Set 자료구로를 이용하여 문제를 풀 수 있음 => 해당 값이 존재하는지 빠르게 확인할 수 있는 자료구조
 // N개의 정수 A[N]을 Set에 넣고 다음에 주어지는 M개의 수가 이 Set에 존재하는지 여부만 판단하면 됨
 public class BOJ_1920_Set {
